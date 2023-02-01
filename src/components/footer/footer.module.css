@@ -1,0 +1,57 @@
+.footer {
+  background: var(--black);
+}
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+
+.share a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
+  border: var(--border);
+  border-radius: 50%;
+  fill: #fff;
+}
+
+.share a:hover {
+  background-color: var(--main-color);
+  transition: fill 0.3s ease;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+.links a {
+  padding: 0.7rem 2rem;
+  color: #fff;
+  border: var(--border);
+  font-size: 2rem;
+}
+
+.links a:hover {
+  background: var(--main-color);
+}
+
+.credit {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: lighter;
+  padding: 1.5rem;
+}
+
+.credit span {
+  color: var(--main-color);
+}

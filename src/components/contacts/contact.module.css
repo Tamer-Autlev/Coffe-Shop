@@ -1,0 +1,73 @@
+.contact .row {
+  display: flex;
+  background: var(--black);
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 5rem 10rem;
+}
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+.heading {
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-size: 3.3rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+.heading span {
+  color: #fff;
+}
+.map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact_form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact_form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.contact_form .inputBox input {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: var(--bg);
+  border: var(--border);
+}
+
+.contact_form input {
+  border: var(--border);
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+  text-transform: none;
+  background: none;
+  background: var(--bg);
+}
+.btn {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
